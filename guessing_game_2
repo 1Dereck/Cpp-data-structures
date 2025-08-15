@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "***************************************" << endl;
+    cout << "** Bem-vindo ao jogo de adivinhacao! **" << endl;
+	cout << "***************************************\n" << endl;
+
+
+    // Constantes em C++ devem ser escritas em MAIÚSCULO
+    // Motivo: Facilita identificar rapidamente que o valor NÃO deve mudar
+    // e evita erros acidentais de modificação.
+    const int NUMERO_SECRETO = 42;
+	int tentativas = 0;
+	bool acerto = false;
+
+    while (acerto != true && tentativas <= 5) {
+	    int chute = 0;
+	    
+		tentativas++;
+	    
+		cout << "Informe o seu chute entre 0 a 50: ";
+	    cin >> chute;
+	    cout << "O valor do seu chute eh: " << chute << endl;
+	
+	    // Uso de variáveis booleanas para representar condições
+	    // Motivo: melhora a legibilidade do código e evita colocar expressões
+	    // complexas diretamente dentro dos ifs.
+	    bool acertou = chute == NUMERO_SECRETO; // true se o chute for correto
+	    bool maior = chute > NUMERO_SECRETO;    // true se o chute for maior
+	
+	    if (acertou) {
+	        cout << "\nParabens voce acertou o numero secreto!" << endl;
+	        acerto = true;
+	    }
+	    else if (maior) {
+	        cout << "Seu chute foi maior do que o numero secreto\n" << endl;
+	    }
+	    else {
+	        cout << "Seu chute foi menor do que o numero secreto\n" << endl;
+	    }
+	}
+	cout << "\nFim de Jogo!" << endl;
+	cout << "Voce acertou o numero secreto com " << tentativas << " tentativas." << endl;
+    return 0;
+}
