@@ -1,6 +1,11 @@
-# Estruturas de Dados em C++ 📚💻
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="120"/>
+</p>
 
-Repositório criado para registrar os códigos e exercícios desenvolvidos durante o estudo de **Estruturas de Dados Lineares e Não Lineares** na disciplina do semestre.
+<h1 align="center">Estruturas de Dados em C++ 📚💻</h1>
+<p align="center">Implementações de estruturas de dados lineares e não lineares usando a linguagem C++.</p>
+
+---
 
 ## 📌 Objetivo
 - Aprender e implementar diferentes estruturas de dados usando **C++**.
@@ -9,21 +14,16 @@ Repositório criado para registrar os códigos e exercícios desenvolvidos duran
 
 ## 🗂 Conteúdo previsto
 ### Estruturas de Dados Lineares
-- Vetores (Arrays)
-- Listas Encadeadas (Linked Lists)
-- Pilhas (Stacks)
-- Filas (Queues)
+- ✅ Vetores (Arrays)
+- ✅ Listas Encadeadas (Linked Lists)
+- ⬜ Pilhas (Stacks)
+- ⬜ Filas (Queues)
 
 ### Estruturas de Dados Não Lineares
-- Árvores (Trees)
-- Grafos (Graphs)
+- ⬜ Árvores (Trees)
+- ⬜ Grafos (Graphs)
 
 ## 🛠 Tecnologias utilizadas
 - Linguagem: **C++**
 - Compilador: `g++` (GNU Compiler) ou outro compatível
 - IDE sugeridas: Visual Studio Code, Code::Blocks, CLion
-
-## 🚀 Como executar os códigos
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/data-structures-cpp.git
