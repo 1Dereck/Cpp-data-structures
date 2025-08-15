@@ -36,6 +36,6 @@
 
 ---
 
-✏ **Autor:** [Seu Nome]  
+✏ **Autor:** [Dereck Felipe Maciel Pereira]  
 📅 **Semestre:** 2025/1  
 📚 **Curso:** Engenharia de Software
