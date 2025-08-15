@@ -16,8 +16,8 @@
 ### Estruturas de Dados Lineares
 - ✅ Vetores (Arrays)
 - ✅ Listas Encadeadas (Linked Lists)
-- ⬜ Pilhas (Stacks)
-- ⬜ Filas (Queues)
+- ✅ Pilhas (Stacks)
+- ✅ Filas (Queues)
 
 ### Estruturas de Dados Não Lineares
 - ⬜ Árvores (Trees)
@@ -36,6 +36,6 @@
 
 ---
 
-✏ **Autor:** [Dereck Felipe Maciel Pereira]  
+✏ **Autor:** [Seu Nome]  
 📅 **Semestre:** 2025/1  
 📚 **Curso:** Engenharia de Software
