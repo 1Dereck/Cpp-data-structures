@@ -2,41 +2,41 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="120"/>
 </p>
 
-<h1 align="center">Estruturas de Dados em C++ 📚💻</h1>
-<p align="center">Implementações de estruturas de dados lineares e não lineares usando a linguagem C++.</p>
+<h1 align="center">Data Structures in C++ 📚💻</h1>
+<p align="center">Implementations of linear and non-linear data structures using the C++ programming language.</p>
 
 ---
 
-## 📌 Objetivo
-- Aprender e implementar diferentes estruturas de dados usando **C++**.
-- Compreender o funcionamento interno de cada estrutura.
-- Desenvolver habilidades para resolver problemas usando algoritmos e estruturas adequadas.
+## 📌 Objective
+- Learn and implement different data structures using **C++**.
+- Understand the internal workings of each structure.
+- Develop skills to solve problems using appropriate algorithms and data structures.
 
-## 🗂 Conteúdo previsto
-### Estruturas de Dados Lineares
-- ✅ Vetores (Arrays)
-- ✅ Listas Encadeadas (Linked Lists)
-- ✅ Pilhas (Stacks)
-- ✅ Filas (Queues)
+## 🗂 Planned Content
+### Linear Data Structures
+- ✅ Arrays (Vetores)
+- ✅ Linked Lists (Listas Encadeadas)
+- ✅ Stacks (Pilhas)
+- ✅ Queues (Filas)
 
-### Estruturas de Dados Não Lineares
-- ⬜ Árvores (Trees)
-- ⬜ Grafos (Graphs)
+### Non-Linear Data Structures
+- ⬜ Trees (Árvores)
+- ⬜ Graphs (Grafos)
 
-## 🛠 Tecnologias utilizadas
-- **Linguagem:** C++
-- **Compilador:** MinGW (padrão do Dev-C++)
+## 🛠 Technologies Used
+- **Language:** C++
+- **Compiler:** MinGW (standard for Dev-C++)
 - **IDE:** Dev-C++
 
-## 🚀 Como executar os códigos no Dev-C++
-1. Abra o **Dev-C++**.
-2. Clique em **File > Open** e selecione o arquivo `.cpp` desejado.
-3. Pressione **F11** para compilar e executar.
-4. O resultado aparecerá na janela do console.
+## 🚀 How to Run the Code in Dev-C++
+1. Open **Dev-C++**.
+2. Click **File > Open** and select the desired `.cpp` file.
+3. Press **F11** to compile and run.
+4. The output will appear in the console window.
 
 ---
 
-✏ **Autor:** Dereck Felipe Maciel Pereira 
+✏ **Author:** Dereck Felipe Maciel Pereira  
 
-📅 **Semestre:** 2025/1  
-📚 **Curso:** Engenharia de Software
+📅 **Semester:** 2025/1  
+📚 **Course:** Software Engineering
