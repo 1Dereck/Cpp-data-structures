@@ -24,6 +24,18 @@
 - ⬜ Grafos (Graphs)
 
 ## 🛠 Tecnologias utilizadas
-- Linguagem: **C++**
-- Compilador: `g++` (GNU Compiler) ou outro compatível
-- IDE sugeridas: Visual Studio Code, Code::Blocks, CLion
+- **Linguagem:** C++
+- **Compilador:** MinGW (padrão do Dev-C++)
+- **IDE:** Dev-C++
+
+## 🚀 Como executar os códigos no Dev-C++
+1. Abra o **Dev-C++**.
+2. Clique em **File > Open** e selecione o arquivo `.cpp` desejado.
+3. Pressione **F11** para compilar e executar.
+4. O resultado aparecerá na janela do console.
+
+---
+
+✏ **Autor:** [Dereck Felipe Maciel Pereira]  
+📅 **Semestre:** 2025/1  
+📚 **Curso:** Engenharia de Software
