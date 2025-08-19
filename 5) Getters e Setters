@@ -1,0 +1,37 @@
+//O bolo tem um ingrediente secreto (quantidade de açúcar).
+//Eu não posso mexer diretamente nele, mas a receita me dá portas para:
+//Getter = espiar o valor.
+//Setter = mudar o valor.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class ReceitaDeBolo {
+private:
+    int acucar; // segredo (privado)
+
+public:
+    // Getter (espiar)
+    int getAcucar() {
+        return acucar;
+    }
+
+    // Setter (mudar)
+    void setAcucar(int qtd) {
+        if (qtd >= 0) { // posso controlar regras
+            acucar = qtd;
+        }
+    }
+};
+
+int main() {
+    ReceitaDeBolo bolo;
+    bolo.setAcucar(5); // coloquei 5 colheres de açúcar
+    cout << "Esse bolo tem " << bolo.getAcucar() << " colheres de açúcar.\n";
+    return 0;
+}
+
+//Getter = pegar valor de atributo privado.
+//Setter = mudar valor de atributo privado.
+//Com setter posso colocar regras (ex.: não deixar valor negativo).
