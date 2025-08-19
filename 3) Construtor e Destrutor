@@ -1,0 +1,38 @@
+//👉 Pensa assim:
+//Construtor = quando o bolo nasce (já sai do forno com sabor e tamanho).
+//Destrutor = quando o bolo vai embora (é jogado fora ou comido, some da memória).
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class ReceitaDeBolo {
+public:
+    string sabor;
+    int tamanho;
+
+    // Quando o bolo nasce (construtor)
+    ReceitaDeBolo(string s, int t) : sabor(s), tamanho(t) {
+        cout << "Saiu do forno um bolo de " << sabor << "!\n";
+    }
+
+    // Quando o bolo vai embora (destrutor)
+    ~ReceitaDeBolo() {
+        cout << "O bolo de " << sabor << " acabou.\n";
+    }
+};
+
+int main() {
+    {
+        ReceitaDeBolo bolo("morango", 30); // bolo nasce
+        bolo.mostrarBolo();                // erro: não fiz método mostrarBolo aqui ainda
+        cout << "Esse bolo tem tamanho " << bolo.tamanho << "\n";
+    } // bolo vai embora aqui (quando sai do bloco)
+
+    cout << "Fim do programa.\n";
+    return 0;
+}
+
+//Construtor = bolo já nasce do forno pronto (com sabor e tamanho).
+//Destrutor = bolo acaba (quando sai do bloco ou o programa termina).
+//ReceitaDeBolo(string s, int t) : sabor(s), tamanho(t) → bolo já nasce configurado.
