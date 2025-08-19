@@ -25,7 +25,7 @@ public:
 int main() {
     {
         ReceitaDeBolo bolo("morango", 30); // bolo nasce
-        bolo.mostrarBolo();                // erro: não fiz método mostrarBolo aqui ainda
+        // bolo.mostrarBolo(); erro: não fiz método mostrarBolo aqui ainda
         cout << "Esse bolo tem tamanho " << bolo.tamanho << "\n";
     } // bolo vai embora aqui (quando sai do bloco)
 
