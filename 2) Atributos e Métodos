@@ -1,0 +1,32 @@
+//👉 Pensa assim:
+//Atributo = característica do bolo (ex.: sabor, tamanho).
+//Método = ação do bolo (ex.: mostrar sabor, mostrar tamanho).
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class ReceitaDeBolo {
+public:
+    string sabor;  // característica (atributo)
+    int tamanho;   // característica (atributo)
+
+    void mostrarBolo() { // ação (método)
+        cout << "Bolo de " << sabor << " com tamanho " << tamanho << "\n";
+    }
+};
+
+int main() {
+    ReceitaDeBolo bolo;     // Fiz um bolo
+    bolo.sabor = "chocolate"; // Dei sabor
+    bolo.tamanho = 25;        // Dei tamanho
+
+    bolo.mostrarBolo();       // Mostrei como ele ficou
+    return 0;
+}
+
+
+//Atributos = características (sabor, tamanho).
+//Métodos = ações (mostrarBolo).
+//bolo.sabor = "chocolate"; → dei sabor ao bolo.
+//bolo.mostrarBolo(); → mandei o bolo “se mostrar”.
