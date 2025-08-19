@@ -1,0 +1,25 @@
+//1) Classe e Objeto
+//👉 Pensa assim:
+//Classe = a receita do bolo (diz os ingredientes e como fazer).
+//Objeto = o bolo feito a partir dessa receita.
+//Posso usar a mesma receita várias vezes e fazer vários bolos diferentes.
+
+#include <iostream>
+using namespace std;
+
+class ReceitaDeBolo { }; // A RECEITA (ainda vazia)
+
+int main() {
+    ReceitaDeBolo bolo1; // Fiz 1 bolo
+    ReceitaDeBolo bolo2; // Fiz outro bolo
+
+    cout << "Fiz 2 bolos usando a mesma receita!\n";
+    return 0;
+}
+
+
+//Pra anotar no caderno:
+//Classe = receita.
+//Objeto = bolo feito da receita.
+//class ReceitaDeBolo { }; cria a receita.
+//ReceitaDeBolo bolo1; → fiz um bolo chamado bolo1.
