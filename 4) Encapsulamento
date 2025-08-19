@@ -1,0 +1,35 @@
+//O bolo tem coisas que todo mundo pode ver (ex.: sabor).
+//Mas também tem coisas que ficam escondidas dentro da cozinha (ex.: segredo da receita).
+//Em C++ usamos:
+//     - public: todo mundo pode acessar.
+//     - private: só a própria receita sabe (segredo).
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class ReceitaDeBolo {
+private:
+    int temperaturaForno; // segredo da cozinha (privado)
+
+public:
+    string sabor;
+
+    void assar() {
+        temperaturaForno = 180; // só a própria receita pode mexer
+        cout << "Assando o bolo de " << sabor << " a " << temperaturaForno << " graus.\n";
+    }
+};
+
+int main() {
+    ReceitaDeBolo bolo;
+    bolo.sabor = "chocolate"; // consigo mexer (public)
+    bolo.assar();             // consigo chamar (public)
+
+    // bolo.temperaturaForno = 200; // ERRO! segredo (private)
+    return 0;
+}
+
+//public = qualquer um pode acessar.
+//private = segredo, só a própria classe pode acessar.
+//Encapsular = esconder detalhes e mostrar só o que é importante.
