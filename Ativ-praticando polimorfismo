@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+
+class Transporte {
+public:
+	// Precisa ser virtual para permitir polimorfismo
+	virtual void mover() {
+	cout << "Transporte se movendo" << endl;
+	}
+};
+
+class Carro : public Transporte {
+public:
+	void mover() override {
+		cout << "Carro andando na estrada" << endl;		}
+};
+
+class Barco : public Transporte {
+public:	
+	void mover() override {
+		cout << "Barco navegando no mar" << endl;
+	}
+};
+
+class Aviao : public Transporte{
+public:
+	void mover() override {
+		cout << "Aviao voando no ceu" << endl;
+	}
+};
+
+int main(int argc, char** argv) {
+	// usando objetos normais (sem polimorfismo)
+	
+	/*carro1.mover();
+	mBarco barco1; 
+	
+	barco1.mover();
+	Aviao aviao1;  
+	
+	aviao1.mover();*/
+	 
+	  	
+	// Usando polimorfismo
+	Transporte* t0 = new Transporte();
+	Transporte* t1 = new Carro();
+	Transporte* t2 = new Barco();
+	Transporte* t3 = new Aviao();
+	
+	t0->mover();
+	t1->mover();
+	t2->mover();
+	t3->mover();
+	
+	return 0;
+}  
